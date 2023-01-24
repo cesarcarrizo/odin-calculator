@@ -1,0 +1,37 @@
+:root {
+  box-sizing: border-box;
+  --test-c1: #be259b;
+  --test-c2: #f950d2;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+* + * {
+  margin: 0;
+}
+
+.container {
+  background-color: cornsilk;
+  display: flex;
+  justify-content: center;
+  padding: 10% 30% 10% 30%;
+}
+
+.calculator {
+  background-color: aliceblue;
+  border: burlywood solid 4px;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.screen {
+  background-color: cornsilk;
+  border: burlywood solid 4px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  padding: 20px;
+}
